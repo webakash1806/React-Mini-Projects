@@ -1,8 +1,10 @@
+import Pass from "./Components/Pass"
+
 
 const App = () => {
   return (
-    <div>
-      hello
+    <div className="flex items-center justify-center">
+      <Pass />
     </div>
   )
 }
